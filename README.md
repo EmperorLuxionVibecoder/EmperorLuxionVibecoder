@@ -102,26 +102,7 @@ const VibeCoder = {
 
 ---
 
-## 📊 GitHub Statistics
-
-<div align="center">
-  
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=EmperorLuxionVibecoder&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=A855F7&icon_color=A855F7&text_color=FFFFFF&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-<img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=EmperorLuxionVibecoder&theme=radical&hide_border=true&background=0D1117&stroke=A855F7&ring=A855F7&fire=FF6B6B&currStreakLabel=A855F7" alt="GitHub Streak" />
-
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmperorLuxionVibecoder&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=A855F7&text_color=FFFFFF" alt="Top Languages" />
-<img width="49%" src="https://github-readme-activity-graph.vercel.app/graph?username=EmperorLuxionVibecoder&theme=react-dark&hide_border=true&bg_color=0D1117&color=A855F7&line=A855F7&point=FFFFFF" alt="Activity Graph" />
-
-</div>
-
-<!--START_SECTION:waka-->
-<!--END_SECTION:waka-->
-
-<img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-
----
-
-## 🐍 Contribution Snake
+##  Contribution Snake
 
 <div align="center">
 
