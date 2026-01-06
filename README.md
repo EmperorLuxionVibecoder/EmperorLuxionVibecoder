@@ -1,6 +1,4 @@
 <div align="center">
-  
-# 👋 Welcome to Emperor his coding realm! 
 
 <img src="https://readme-typing-svg.demolab.com?font=Rubik+Glitch&size=45&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=940&lines=SYSTEM_BREACH_DETECTED...;INITIALIZING_VIBECODER_PROTOCOL...;EMPEROR_LUXION_ONLINE_%F0%9F%91%BE;WELCOME_TO_THE_MAINFRAME_%F0%9F%9A%80" alt="Glitch Header" />
 
@@ -163,9 +161,5 @@ luxion@vibecoder:~$ sudo execute_workflow
 **Thanks for visiting! 🚀 Happy Coding! 💻**
 
 <br/>
-
-<div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" style="border-radius: 10px;" alt="Lofi Coding Rain">
-</div>
 
 </div>
