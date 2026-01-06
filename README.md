@@ -195,7 +195,7 @@ const VibeCoder = {
 <br/>
 
 <div align="center">
-<img src="https://media.giphy.com/media/LHTJg2I56Vjfa/giphy.gif" width="100%" style="border-radius: 10px;" alt="Lofi Coding Rain">
+<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%" style="border-radius: 10px;" alt="Lofi Coding Rain">
 </div>
 
 </div>
