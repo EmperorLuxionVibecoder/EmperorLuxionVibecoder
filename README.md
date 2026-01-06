@@ -129,7 +129,7 @@ const EmperorLuxion = {
 
 </div>
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=170&section=header&text=✨%20Keep%20Coding%20✨&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=72" width="100%">
+<img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=✨%20Keep%20Coding%20✨&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=40" width="100%">
 
 ---
 
