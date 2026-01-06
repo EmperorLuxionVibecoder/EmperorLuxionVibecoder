@@ -16,25 +16,29 @@
 ## 🚀 About Me
 
 ```javascript
-const EmperorLuxion = {
-    pronouns: "He/Him",
-    code: ["JavaScript", "Python", "TypeScript", "Java", "C++"],
-    askMeAbout: ["web dev", "tech", "app dev", "gaming"],
-    technologies: {
-        frontEnd: {
-            js: ["React", "Next.js", "Vue"],
-            css: ["Tailwind", "Bootstrap", "Material-UI"]
-        },
-        backEnd: {
-            js: ["Node.js", "Express"],
-            python: ["Django", "FastAPI", "Flask"]
-        },
-        databases: ["MongoDB", "PostgreSQL", "MySQL", "Redis"],
-        devOps: ["Docker", "Kubernetes", "AWS", "GitHub Actions"],
-        tools: ["Git", "VS Code", "Postman", "Figma"]
+const VibeCoder = {
+    user: "EmperorLuxion",
+    vibes: ["Cosmic Lofi 🌌", "Synthwave 🌆", "Chaos & Caffeine ☕"],
+    
+    codingEnvironment: {
+        music: "Volume: 110%",
+        theme: "Dark Mode (Always) 🌑",
+        snacks: ["Pizza", "Energy Drinks", "Debugging Tears"]
     },
-    currentFocus: "Building innovative solutions and learning new technologies",
-    funFact: "I debug with console.log() and I'm not ashamed! 🐛"
+
+    workflow: function() {
+        while (alive) {
+            try {
+                code();
+                vibe();
+            } catch (err) {
+                console.log("It works on my machine... 🤷‍♂️");
+                googleStackOverflow(err);
+            }
+        }
+    },
+
+    superpower: "Turning pizza into commit history 🍕➡️🟩"
 };
 ```
 
@@ -127,9 +131,25 @@ const EmperorLuxion = {
   <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/github-contribution-grid-snake.svg">
 </picture>
 
+<br/>
+
+<!-- 3D Graph -->
+<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Contribution Graph" width="100%" />
+
 </div>
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=250&section=header&text=✨%20Keep%20Coding%20✨&fontSize=40&fontColor=fff&animation=twinkling&fontAlignY=40" width="100%">
+
+---
+
+## 🎧 Vibe Check
+
+<div align="center">
+
+<!-- Spotify "Now Playing" - Click to configure if needed, or use Novatorem service -->
+[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0D1117&border_color=A855F7&bar_color=A855F7&text_color=FFFFFF)](https://novatorem.vercel.app)
+
+</div>
 
 ---
 
@@ -172,6 +192,10 @@ const EmperorLuxion = {
 
 **Thanks for visiting! 🚀 Happy Coding! 💻**
 
-<img src="https://user-images.githubusercontent.com/74038190/213866269-5d00981c-7c98-46d7-8a8e-16f462f15227.gif" width="200" />
+<br/>
+
+<div align="center">
+<img src="https://media.giphy.com/media/LHTJg2I56Vjfa/giphy.gif" width="100%" style="border-radius: 10px;" alt="Lofi Coding Rain">
+</div>
 
 </div>
