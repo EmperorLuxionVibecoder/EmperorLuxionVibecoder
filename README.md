@@ -142,27 +142,6 @@ const VibeCoder = {
 
 ---
 
-## 🎧 Vibe Check
-
-<div align="center">
-
-<!-- Spotify "Now Playing" - Generated via GitHub Action -->
-<img src="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/spotify.svg" alt="Spotify Now Playing" width="350">
-
-</div>
-
----
-
-## 🏆 GitHub Trophies
-
-<div align="center">
-  
-[![trophy](https://github-profile-trophy.vercel.app/?username=EmperorLuxionVibecoder&theme=radical&no-frame=true&no-bg=true&margin-w=4)](https://github.com/ryo-ma/github-profile-trophy)
-
-</div>
-
----
-
 ## 📫 Connect With Me
 
 <div align="center">
