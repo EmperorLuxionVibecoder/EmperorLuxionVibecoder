@@ -100,7 +100,12 @@ luxion@vibecoder:~$ sudo execute_workflow
 ## � Cyberpunk Statistics
 
 <div align="center">
+<!-- RPG Style Stats -->
+<img src="./github-rpg-stats.svg" alt="RPG Stats" width="55%" />
+<img src="./github-rpg-langs.svg" alt="Languages" width="40%" />
 
+<br/>
+<br/>
 <!-- Cyberpunk Metrics Dashboard -->
 <img src="./github-metrics.svg" alt="Cyberpunk Stats" width="100%">
 
@@ -135,7 +140,7 @@ luxion@vibecoder:~$ sudo execute_workflow
 
 <div align="center">
 
-[![X](https://img.shields.io/badge/X-%231DA1F2.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/EmperorLuxion)
+[![Twitter](https://img.shields.io/badge/X-%231DA1F2.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/EmperorLuxion)
 [![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/EmperorLuxionVibecoder)
 [![Telegram](https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/EmperorLuxion)
 
