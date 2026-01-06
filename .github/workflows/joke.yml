@@ -1,0 +1,67 @@
+name: Daily Joke
+
+on:
+  schedule:
+    - cron: '0 8 * * *'
+  workflow_dispatch:
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Fetch Joke
+        id: joke
+        run: |
+          # Fetch a safe single-part programming joke
+          RESPONSE=$(curl -s "https://v2.jokeapi.dev/joke/Programming?blacklistFlags=nsfw,religious,political,racist,sexist,explicit&type=single")
+          JOKE=$(echo $RESPONSE | jq -r .joke)
+          
+          # Clean up for markdown (escape double quotes)
+          CLEAN_JOKE="${JOKE//\"/\\\"}"
+          
+          echo "JOKE=$CLEAN_JOKE" >> $GITHUB_ENV
+
+      - name: Update README
+        uses: actions/github-script@v6
+        with:
+          script: |
+            const fs = require('fs');
+            const joke = process.env.JOKE;
+            const readmePath = 'README.md';
+            
+            if (!joke || joke === 'null') {
+                console.log('No joke found, skipping update.');
+                return;
+            }
+
+            let readme = fs.readFileSync(readmePath, 'utf8');
+            
+            const startTag = '<!--START_SECTION:joke-->';
+            const endTag = '<!--END_SECTION:joke-->';
+            const regex = new RegExp(`${startTag}[\\s\\S]*?${endTag}`, 'g');
+            const newContent = `${startTag}\n> "${joke}"\n${endTag}`;
+            
+            if (regex.test(readme)) {
+                readme = readme.replace(regex, newContent);
+                fs.writeFileSync(readmePath, readme);
+            } else {
+                console.log('Joke section tags not found in README.');
+            }
+
+      - name: Commit changes
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          
+          # Check if there are changes
+          if [[ -n $(git status -s) ]]; then
+            git add README.md
+            git commit -m "🤖 Daily Joke Update"
+            git push
+          else
+            echo "No changes to commit"
+          fi
