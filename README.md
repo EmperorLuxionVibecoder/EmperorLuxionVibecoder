@@ -2,7 +2,7 @@
   
 # 👋 Welcome to Emperor his coding realm! 
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%F0%9F%92%BB;Building+Amazing+Projects+%E2%9C%A8" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Rubik+Glitch&size=45&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=940&lines=SYSTEM_BREACH_DETECTED...;INITIALIZING_VIBECODER_PROTOCOL...;EMPEROR_LUXION_ONLINE_👾;WELCOME_TO_THE_MAINFRAME_🚀" alt="Glitch Header" />
 
 <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
 
@@ -15,31 +15,23 @@
 
 ## 🚀 About Me
 
-```javascript
-const VibeCoder = {
-    user: "EmperorLuxion",
-    vibes: ["Cosmic Lofi 🌌", "Synthwave 🌆", "Chaos & Caffeine ☕"],
-    
-    codingEnvironment: {
-        music: "Volume: 110%",
-        theme: "Dark Mode (Always) 🌑",
-        snacks: ["Pizza", "Energy Drinks", "Debugging Tears"]
-    },
+```bash
+# 🖥️ TERMINAL SESSION: VIBECODER_HQ
 
-    workflow: function() {
-        while (alive) {
-            try {
-                code();
-                vibe();
-            } catch (err) {
-                console.log("It works on my machine... 🤷‍♂️");
-                googleStackOverflow(err);
-            }
-        }
-    },
+luxion@vibecoder:~$ ./identify_user.sh
+> [USER]: EmperorLuxion
+> [CLASS]: FullStack Sorcerer 🔮
+> [VIBE]: Cosmic Lo-fi & Syntax Errors 🌌
 
-    superpower: "Turning pizza into commit history 🍕➡️🟩"
-};
+luxion@vibecoder:~$ cat system_status.log
+> 🎵 MUSIC_VOL: 110% (Synthwave)
+> ☕ CAFFEINE: CRITICAL LEVELS
+> 🌑 THEME: DARK_MODE_V3.0
+
+luxion@vibecoder:~$ sudo execute_workflow
+> Running... 
+> [SUCCESS] Pizza converted to Code 🍕➡️🟩
+> [WARNING] "It works on my machine" protocol active.
 ```
 
 <div align="center">
@@ -107,12 +99,20 @@ const VibeCoder = {
 
 ---
 
-## 🐍 Contribution Snake
+## � Cyberpunk Statistics
 
 <div align="center">
 
 <!-- Cyberpunk Metrics Dashboard -->
-<img src="https://github.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/blob/main/github-metrics.svg" alt="Cyberpunk Stats" width="100%">
+<img src="./github-metrics.svg" alt="Cyberpunk Stats" width="100%">
+
+</div>
+
+---
+
+## 🐍 Contribution Snake
+
+<div align="center">
 
 <br/>
 
