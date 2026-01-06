@@ -146,8 +146,8 @@ const VibeCoder = {
 
 <div align="center">
 
-<!-- Spotify "Now Playing" - Click to configure if needed, or use Novatorem service -->
-[![Spotify](https://novatorem.vercel.app/api/spotify?background_color=0D1117&border_color=A855F7&bar_color=A855F7&text_color=FFFFFF)](https://novatorem.vercel.app)
+<!-- Spotify "Now Playing" - Generated via GitHub Action -->
+<img src="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/spotify.svg" alt="Spotify Now Playing" width="350">
 
 </div>
 

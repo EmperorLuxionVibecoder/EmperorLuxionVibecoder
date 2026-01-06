@@ -1,0 +1,33 @@
+name: Spotify Status
+
+on:
+  schedule:
+    - cron: "*/30 * * * *" # Runs every 30 minutes
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # Generates a spotify.svg file in your root directory
+      - uses: kittinan/spotify-github-profile@master
+        with:
+          spotify_user_id: EmperorLuxion 
+          spotify_client_id: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          spotify_client_secret: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          spotify_refresh_token: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+          theme: novatorem
+          bar_color: 'A855F7'
+          background_color: '0D1117'
+          
+      # Pushes that SVG to the 'output' branch (same place as the snake)
+      - name: Deploy to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: .
+          keep_history: true
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
