@@ -1,6 +1,6 @@
 <div align="center">
   
-# 👋 Welcome to Emperor Luxion's Coding Realm! 
+# 👋 Welcome to Emperor his coding realm! 
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=32&duration=2800&pause=2000&color=A855F7&center=true&vCenter=true&width=940&lines=Full+Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%F0%9F%92%BB;Building+Amazing+Projects+%E2%9C%A8" alt="Typing SVG" />
 
