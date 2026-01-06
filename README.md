@@ -93,6 +93,11 @@ luxion@vibecoder:~$ sudo execute_workflow
 ---
 
 <!--START_SECTION:waka-->
+
+```txt
+No activity tracked
+```
+
 <!--END_SECTION:waka-->
 
 ---
