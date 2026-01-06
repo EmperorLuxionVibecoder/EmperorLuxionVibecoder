@@ -2,7 +2,7 @@
   
 # 👋 Welcome to Emperor his coding realm! 
 
-<img src="https://readme-typing-svg.demolab.com?font=Rubik+Glitch&size=45&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=940&lines=SYSTEM_BREACH_DETECTED...;INITIALIZING_VIBECODER_PROTOCOL...;EMPEROR_LUXION_ONLINE_👾;WELCOME_TO_THE_MAINFRAME_🚀" alt="Glitch Header" />
+<img src="https://readme-typing-svg.demolab.com?font=Rubik+Glitch&size=45&duration=3000&pause=1000&color=00F0FF&center=true&vCenter=true&width=940&lines=SYSTEM_BREACH_DETECTED...;INITIALIZING_VIBECODER_PROTOCOL...;EMPEROR_LUXION_ONLINE_%F0%9F%91%BE;WELCOME_TO_THE_MAINFRAME_%F0%9F%9A%80" alt="Glitch Header" />
 
 <img src="https://user-images.githubusercontent.com/74038190/213910845-af37a709-8995-40d6-be59-724526e3c3d7.gif" width="900">
 
