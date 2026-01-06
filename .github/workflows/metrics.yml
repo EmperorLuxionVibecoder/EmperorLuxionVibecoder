@@ -30,9 +30,16 @@ jobs:
           # Coding Habits (Time of day, etc)
           plugin_habits: yes
           plugin_habits_from: 200
-          plugin_habits_days: 14
+          plugin_habits_days: 30       # Increased to 30 days for better data
           plugin_habits_facts: yes
           plugin_habits_charts: yes
+          plugin_habits_trim: yes      # Trim unused hours
+          
+          # Lines of code changed
+          plugin_lines: yes
+          plugin_lines_history_limit: 1
+          plugin_lines_repositories_limit: 4
+          plugin_lines_sections: base
           
           # Languages
           plugin_languages: yes
