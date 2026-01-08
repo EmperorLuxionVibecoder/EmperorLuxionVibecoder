@@ -107,15 +107,10 @@
 <br/><br/>
 
 <!-- Main Metrics Dashboard (Base Stats) -->
-<img src="./github-metrics.svg" alt="Metrics Dashboard" width="100%">
+<img src="./stats.svg" alt="Static Stats Dashboard" width="100%">
 
 <br/><br/>
 
-<!-- GitHub Readme Stats & Top Langs -->
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=EmperorLuxionVibecoder&show_icons=true&bg_color=0D1117&title_color=14F195&text_color=c9d1d9&icon_color=9945FF&border_color=30363d&hide_border=true" alt="EmperorLuxionVibecoder's GitHub Stats" width="48%" />
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmperorLuxionVibecoder&layout=compact&bg_color=0D1117&title_color=14F195&text_color=c9d1d9&border_color=30363d&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
-</p>
 
 </div>
 
