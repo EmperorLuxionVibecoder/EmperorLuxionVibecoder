@@ -59,9 +59,9 @@ jobs:
           
           # Habits Configuration
           plugin_habits: yes
-          plugin_habits_from: 200       # Look at last 200 events
+          plugin_habits_from: 60        # Drastically reduced to 60 events to prevent errors
           plugin_habits_days: 14        # 14 days history
-          plugin_habits_facts: yes      # Re-enabled facts now that it's isolated
+          plugin_habits_facts: no       # Disabled facts to fix "Unexpected error"
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           
