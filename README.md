@@ -100,12 +100,6 @@
 
 <div align="center">
 
-<!-- RPG Stats (Terminal Style) -->
-<img src="./github-rpg-stats.svg" alt="RPG Stats" width="55%" />
-<img src="./github-rpg-langs.svg" alt="Languages" width="40%" />
-
-<br/><br/>
-
 <!-- Main Metrics Dashboard (Base Stats) -->
 <img src="./stats.svg" alt="Static Stats Dashboard" width="100%">
 
