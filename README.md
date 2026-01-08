@@ -114,6 +114,14 @@
 <!-- Coding Habits (New Section) -->
 <img src="./github-habits.svg" alt="Coding Habits" width="100%">
 
+<br/><br/>
+
+<!-- GitHub Readme Stats & Top Langs -->
+<p align="center">
+  <img src="https://github-readme-stats.vercel.app/api?username=EmperorLuxionVibecoder&show_icons=true&bg_color=0D1117&title_color=14F195&text_color=c9d1d9&icon_color=9945FF&border_color=30363d&hide_border=true&count_private=true" alt="EmperorLuxionVibecoder's GitHub Stats" width="48%" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=EmperorLuxionVibecoder&layout=compact&bg_color=0D1117&title_color=14F195&text_color=c9d1d9&border_color=30363d&hide_border=true&langs_count=8" alt="Top Languages" width="48%" />
+</p>
+
 </div>
 
 
