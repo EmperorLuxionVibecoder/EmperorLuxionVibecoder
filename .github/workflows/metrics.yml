@@ -26,19 +26,16 @@ jobs:
           # Optimization: Removed isocalendar (redundant with profile-3d)
           # Optimization: Removed languages (redundant with RPG Langs)
           
-          # Coding Habits
+          # Coding Habits (Optimized)
           plugin_habits: yes
-          plugin_habits_from: 200
-          plugin_habits_days: 14       # Reduced to 14 days for speed
-          plugin_habits_facts: yes
+          plugin_habits_from: 100      # Reduced from 200 to 100 events
+          plugin_habits_days: 14       
+          plugin_habits_facts: no      # Disable facts calculation (heavy)
           plugin_habits_charts: yes
           plugin_habits_trim: yes
           
-          # Lines of code
-          plugin_lines: yes
-          plugin_lines_history_limit: 1
-          plugin_lines_repositories_limit: 4
-          plugin_lines_sections: base
+          # Lines of code - DISABLED (Primary cause of timeouts)
+          plugin_lines: no
           
           # Solana Theme (Dark + Green/Purple)
           extras_css: |
