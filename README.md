@@ -130,6 +130,35 @@
 
 ---
 
+## 🚧 ACTIVE_DIRECTIVES [WIP]
+
+<div align="center">
+
+| PROJECT_ID | STATUS | CLASS |
+|:---:|:---:|:---:|
+| **[ALPHA_SCANNER]** | `[BUILDING]` | 🕵️‍♂️ Analytics |
+| **[CIPHER_OWL_DAO]** | `[BUILDING]` | 🦉 Governance |
+| **[THE_CIPHERVERSE]** | `[BUILDING]` | 🌌 Metaverse |
+
+</div>
+
+<br/>
+
+## 🌐 CIPHER_LABS_ECOSYSTEM
+
+<div align="center">
+
+[![CipherLabs](https://img.shields.io/badge/ORG-CIPHER_LABS_X-9945FF?style=for-the-badge&logo=react&logoColor=white)](https://www.cipherlabsx.com/?page=Home)
+
+[![Token](https://img.shields.io/badge/TOKEN-$CIPHER-14F195?style=for-the-badge&logo=solana&logoColor=black)](https://dexscreener.com/solana/Ciphern9cCXtms66s8Mm6wCFC27b2JProRQLYmiLMH3N)
+[![NFTs](https://img.shields.io/badge/NFT-CYPHER_OWLS-F16822?style=for-the-badge&logo=magic-eden&logoColor=white)](https://magiceden.io/marketplace/cypher_owls)
+
+</div>
+
+<br/>
+
+---
+
 <div align="center">
   
   <h3>📡 ENCRYPTED TRANSMISSION ENDED</h3>
