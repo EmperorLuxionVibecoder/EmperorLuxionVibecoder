@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" height="220px" version="1.1" width="500px" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"><![CDATA[
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+        .text { font-family: 'Fira Code', monospace; fill: #c9d1d9; font-size: 14px; }
+        .label { fill: #8b949e; font-size: 12px; }
+        .header { fill: #14F195; font-size: 16px; font-weight: bold; }
+        .status { fill: #9945FF; font-size: 12px; font-weight: bold; }
+        
+        /* Glitch Animation for Header */
+        @keyframes glitch {
+            0% { transform: translate(0) }
+            20% { transform: translate(-2px, 2px) }
+            40% { transform: translate(-2px, -2px) }
+            60% { transform: translate(2px, 2px) }
+            80% { transform: translate(2px, -2px) }
+            100% { transform: translate(0) }
+        }
+        .glitch-text { animation: glitch 3s infinite; }
+        
+        /* Blink Animation for Progress */
+        @keyframes blink {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.3; }
+        }
+        .blinking { animation: blink 1.5s infinite; }
+        
+        /* Scanline Animation */
+        @keyframes scan {
+            from { transform: translateY(-100%); }
+            to { transform: translateY(200%); }
+        }
+        .scanline {
+            animation: scan 4s linear infinite;
+        }
+    ]]></style><mask id="scan-mask"><rect fill="white" height="100%" rx="10" ry="10" width="100%" x="0" y="0" /></mask></defs><rect fill="#0D1117" height="100%" rx="10" ry="10" stroke="#30363d" stroke-width="1" width="100%" x="0" y="0" /><g mask="url(#scan-mask)" opacity="0.05"><rect class="scanline" fill="#14F195" height="20%" width="100%" x="0" y="0" /></g><text class="text header glitch-text" x="20" y="35">ACTIVE_DIRECTIVES // WORK_QUEUE</text><line stroke="#9945FF" stroke-width="2" x1="20" x2="480" y1="50" y2="50" /><text class="text" style="font-weight: bold;" x="30" y="80">[ALPHA_SCANNER]</text><text class="text label" x="230" y="80">🕵️‍♂️ Analytics</text><g class="blinking"><text class="status" x="380" y="80">[BUILDING...]</text></g><text class="text" style="font-weight: bold;" x="30" y="125">[CIPHER_OWL_DAO]</text><text class="text label" x="230" y="125">🦉 Governance</text><g class="blinking"><text class="status" x="380" y="125">[BUILDING...]</text></g><text class="text" style="font-weight: bold;" x="30" y="170">[THE_CIPHERVERSE]</text><text class="text label" x="230" y="170">🌌 Metaverse</text><g class="blinking"><text class="status" x="380" y="170">[BUILDING...]</text></g><rect fill="#14F195" height="10" width="10" x="20" y="190" /><rect fill="#9945FF" height="10" width="10" x="35" y="190" /><text class="label" style="font-size: 10px;" x="60" y="200">SYS.ONLINE</text></svg>

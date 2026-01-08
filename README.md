@@ -25,6 +25,22 @@
 
 </div>
 
+---
+
+## 🐍 CHAIN_CONTRIBUTIONS
+
+<div align="center">
+
+<br/>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/github-contribution-grid-snake.svg">
+  <img alt="Snake Animation" src="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/github-contribution-grid-snake.svg">
+</picture>
+<br/>
+
+</div>
+
 <br/>
 
 ## 📡 IDENTITY_LOG.json
@@ -91,26 +107,6 @@
 
 </div>
 
----
-
-## 🐍 CHAIN_CONTRIBUTIONS
-
-<div align="center">
-
-<br/>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/github-contribution-grid-snake.svg">
-  <img alt="Snake Animation" src="https://raw.githubusercontent.com/EmperorLuxionVibecoder/EmperorLuxionVibecoder/output/github-contribution-grid-snake.svg">
-</picture>
-<br/>
-
-<!-- 3D City View -->
-<img src="profile-3d-contrib/profile-night-rainbow.svg" alt="3D Graph" width="100%" />
-
-</div>
-
-<br/>
 
 ---
 
@@ -118,11 +114,8 @@
 
 <div align="center">
 
-| PROJECT_ID | STATUS | CLASS |
-|:---:|:---:|:---:|
-| **[ALPHA_SCANNER]** | `[BUILDING]` | 🕵️‍♂️ Analytics |
-| **[CIPHER_OWL_DAO]** | `[BUILDING]` | 🦉 Governance |
-| **[THE_CIPHERVERSE]** | `[BUILDING]` | 🌌 Metaverse |
+<!-- Active Directives / Work Queue -->
+<img src="./wip.svg" alt="Active Directives" width="100%" />
 
 </div>
 
@@ -135,7 +128,7 @@
 [![CipherLabs](https://img.shields.io/badge/ORG-CIPHER_LABS_X-9945FF?style=for-the-badge&logo=react&logoColor=white)](https://www.cipherlabsx.com/?page=Home)
 
 [![Token](https://img.shields.io/badge/TOKEN-$CIPHER-14F195?style=for-the-badge&logo=solana&logoColor=black)](https://dexscreener.com/solana/Ciphern9cCXtms66s8Mm6wCFC27b2JProRQLYmiLMH3N)
-[![NFTs](https://img.shields.io/badge/NFT-CYPHER_OWLS-F16822?style=for-the-badge&logo=magic-eden&logoColor=white)](https://magiceden.io/marketplace/cypher_owls)
+[![NFTs](https://img.shields.io/badge/NFT-CIPHER_OWLS-F16822?style=for-the-badge&logo=magic-eden&logoColor=white)](https://magiceden.io/marketplace/cypher_owls)
 
 </div>
 
