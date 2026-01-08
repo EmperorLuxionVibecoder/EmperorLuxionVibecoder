@@ -49,10 +49,6 @@
   <img src="./identity.svg" alt="Identity Log Card" width="600px" />
 </div>
 
-<div align="center">
-  <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
-</div>
-
 ---
 
 ## ⚔️ THE_ARMORY [Tech Stack]
@@ -102,8 +98,13 @@
 
 <br/><br/>
 
-<!-- Main Metrics Dashboard (Solana Theme: Green/Purple) -->
+<!-- Main Metrics Dashboard (Base Stats) -->
 <img src="./github-metrics.svg" alt="Metrics Dashboard" width="100%">
+
+<br/><br/>
+
+<!-- Coding Habits (New Section) -->
+<img src="./github-habits.svg" alt="Coding Habits" width="100%">
 
 </div>
 

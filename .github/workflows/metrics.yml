@@ -6,8 +6,8 @@ on:
   workflow_dispatch:
   push: {branches: ["main"]}
 jobs:
-  # Job 1: Main Dashboard (Parallel)
-  main-dashboard:
+  # Job 1: General Stats (Base)
+  base-stats:
     runs-on: ubuntu-latest
     permissions:
       contents: write
@@ -23,19 +23,8 @@ jobs:
           config_display: large
           config_padding: 0, 8 + 11%
           
-          # Optimization: Removed isocalendar (redundant with profile-3d)
-          # Optimization: Removed languages (redundant with RPG Langs)
-          
-          # Coding Habits (Optimized)
-          plugin_habits: yes
-          plugin_habits_from: 100      # Reduced from 200 to 100 events
-          plugin_habits_days: 14       
-          plugin_habits_facts: no      # Disable facts calculation (heavy)
-          plugin_habits_charts: yes
-          plugin_habits_trim: yes
-          
-          # Lines of code - DISABLED (Primary cause of timeouts)
-          plugin_lines: no
+          # Optimization: Split Habits into separate job
+          # Optimization: Removed heavy plugins
           
           # Solana Theme (Dark + Green/Purple)
           extras_css: |
@@ -53,7 +42,39 @@ jobs:
             h1, h2, h3 { color: #14F195 !important; }
             .field svg { color: #9945ff !important; }
 
-  # Job 2: RPG Stats (Parallel)
+  # Job 2: Coding Habits (Separate Job for Speed)
+  habits:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: lowlighter/metrics@latest
+        with:
+          token: ${{ secrets.METRICS_TOKEN }}
+          user: EmperorLuxionVibecoder
+          filename: github-habits.svg
+          template: classic
+          base: ""
+          config_timezone: UTC
+          
+          # Habits Configuration
+          plugin_habits: yes
+          plugin_habits_from: 200       # Look at last 200 events
+          plugin_habits_days: 14        # 14 days history
+          plugin_habits_facts: yes      # Re-enabled facts now that it's isolated
+          plugin_habits_charts: yes
+          plugin_habits_trim: yes
+          
+          # Theme
+          extras_css: |
+            :root { 
+              --color-canvas-default: #0d1117; 
+              --color-accent-fg: #9945ff;
+              --color-fg-default: #c9d1d9;
+            }
+            h1, h2, h3 { color: #14F195 !important; }
+
+  # Job 3: RPG Stats (Terminal Style)
   rpg-stats:
     runs-on: ubuntu-latest
     permissions:
@@ -71,7 +92,7 @@ jobs:
           extras_css: |
             .terminal { background-color: #0d1117 !important; border: 1px solid #30363d !important; }
 
-  # Job 3: RPG Languages (Parallel)
+  # Job 4: RPG Languages (Includes Private Repos)
   rpg-langs:
     runs-on: ubuntu-latest
     permissions:
@@ -88,9 +109,10 @@ jobs:
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_sections: most-used
-          plugin_languages_indepth: yes
-          plugin_languages_limit: 6
+          plugin_languages_indepth: no      # Disable indepth to prevent timeout errors
+          plugin_languages_limit: 8
           plugin_languages_threshold: 0%
+          plugin_languages_ignored: ""      # Ensure nothing is ignored (includes private by default if token keys are set)
           config_timezone: UTC
           extras_css: |
             .terminal { background-color: #0d1117 !important; border: 1px solid #30363d !important; border-top: 0 !important; }
