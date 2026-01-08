@@ -45,7 +45,7 @@
 
 <div align="center">
   <!-- Visual Divider -->
-  <img src="./divider.svg" alt="Vibecoder Wave" width="80%" />
+  <img src="./divider.svg" alt="Vibecoder Wave" width="100%" />
 </div>
 
 <br/>
@@ -136,16 +136,6 @@
 
 ---
 
-## �️ STRATEGIC_ROADMAP // PRD_STATUS
-
-<div align="center">
-
-<!-- Roadmap & PRD Card -->
-<img src="./roadmap.svg" alt="Roadmap and PRD" width="100%" />
-
-</div>
-
-<br/>
 
 ## �🚧 ACTIVE_DIRECTIVES [WIP]
 
