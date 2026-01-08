@@ -27,13 +27,7 @@
 
 <br/>
 
-<!-- System Specs (Lore) -->
-<div align="center">
-  <!-- Visual Divider -->
-  <img src="./divider.svg" alt="Vibecoder Wave" width="80%" />
-</div>
 
-<br/>
 
 ---
 
