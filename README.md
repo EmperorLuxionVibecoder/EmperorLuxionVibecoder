@@ -29,25 +29,9 @@
 
 ## 📡 IDENTITY_LOG.json
 
-```json
-{
-  "user": "EmperorLuxion",
-  "status": "BUILDING_ON_CHAIN",
-  "location": "ENCRYPTED_NODE_01",
-  "current_objective": "Mastering the Art of Vibecoding",
-  "systems": {
-    "os": "NixOS / Arch",
-    "shell": "ZSH + Powerlevel10k",
-    "editor": "VS Code (Neon Theme)"
-  },
-  "modules": [
-    "Solana Smart Contracts",
-    "DeFi Protocols",
-    "Cybersecurity Ops",
-    "Full-Stack Architecture"
-  ]
-}
-```
+<div align="center">
+  <img src="./identity.svg" alt="Identity Log Card" width="600px" />
+</div>
 
 <div align="center">
   <img src="https://user-images.githubusercontent.com/74038190/212284100-561aa473-3905-4a80-b561-0d28506553ee.gif" width="100%">
