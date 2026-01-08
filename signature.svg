@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" height="120" version="1.1" width="500" xmlns="http://www.w3.org/2000/svg" xmlns:ev="http://www.w3.org/2001/xml-events" xmlns:xlink="http://www.w3.org/1999/xlink"><defs><style type="text/css"><![CDATA[
+        @import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;700&display=swap');
+        .text { font-family: 'Fira Code', monospace; fill: #c9d1d9; font-size: 12px; }
+        .dim { font-family: 'Fira Code', monospace; fill: #8b949e; font-size: 12px; }
+        .enc { font-family: 'Fira Code', monospace; fill: #14F195; font-size: 12px; }
+        .header { font-family: 'Fira Code', monospace; fill: #9945FF; font-size: 12px; font-weight: bold; }
+    ]]></style></defs><text class="header" x="10" y="20">-----BEGIN PGP SIGNATURE-----</text><text class="dim" x="10" y="40">Version: GnuPG v2.0.22 (GNU/Linux)</text><text class="enc" x="10" y="70.0">iQEcBAEBAgAGBQJS2O+LAAoJE...[ENCRYPTED_BLOCK]...Ende</text><text class="header" x="10" y="100.0">-----END PGP SIGNATURE-----</text></svg>

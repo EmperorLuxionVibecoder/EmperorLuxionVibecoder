@@ -168,10 +168,7 @@
   <h3>📡 ENCRYPTED TRANSMISSION ENDED</h3>
   
   <p>
-    <code>-----BEGIN PGP SIGNATURE-----</code><br/>
-    <span style="color: #484f58; font-size: 10px;">Version: GnuPG v2.0.22 (GNU/Linux)</span><br/><br/>
-    <span style="color: #14F195;">iQEcBAEBAgAGBQJS2O+LAAoJE...[ENCRYPTED_BLOCK]...Ende</span><br/>
-    <code>-----END PGP SIGNATURE-----</code>
+    <img src="./signature.svg" alt="PGP Signature" width="400px" />
   </p>
 
   <p>
