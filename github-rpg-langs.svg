@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="480" height="111" class="">
+<svg xmlns="http://www.w3.org/2000/svg" width="480" height="253" class="">
   
 
   <defs><style>@font-face {
@@ -33,7 +33,15 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">emperorluxionvibecoder@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"></div>
+<pre><div class="stdin"><span class="ps1-path">emperorluxionvibecoder@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>TYPESCRIPT  </b> [###############     ] 70.67%
+<b>PYTHON      </b> [###                 ] 13.41%
+<b>HTML        </b> [###                 ] 12.63%
+<b>CSS         </b> [#                   ] 1.76 %
+<b>JAVASCRIPT  </b> [#                   ] 1.17 %
+<b>JUPYTER NOTEBOOK</b> [#                   ] 0.19 %
+<b>POWERSHELL  </b> [#                   ] 0.09 %
+<b>BATCHFILE   </b> [#                   ] 0.08 %
+</div>
 
 </pre>
 
