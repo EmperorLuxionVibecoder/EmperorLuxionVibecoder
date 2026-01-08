@@ -49,26 +49,14 @@ def create_identity_card():
             50% {{ opacity: 0.5; }}
         }}
         .fading {{ animation: fade 2s infinite; }}
-        
-        @keyframes scan {{
-            0% {{ transform: translateY(-100%); opacity: 0; }}
-            50% {{ opacity: 0.1; }}
-            100% {{ transform: translateY(100%); opacity: 0; }}
-        }}
-        .scanline {{ animation: scan 3s linear infinite; fill: {COLORS['val']}; }}
     """))
     
     # 1. Main Container
     dwg.add(dwg.rect(insert=(0, 0), size=('100%', '100%'), rx=10, ry=10, class_="bg"))
     
-    # 2. Decoration / Scanline Mask
-    mask = dwg.defs.add(dwg.mask(id="scan-mask"))
-    mask.add(dwg.rect(insert=(0, 0), size=('100%', '100%'), fill="white", rx=10, ry=10))
-    scan_group = dwg.add(dwg.g(mask="url(#scan-mask)"))
-    scan_group.add(dwg.rect(insert=(0, 0), size=('100%', '200px'), class_="scanline"))
-
-    # 3. Header Bar
+    # 2. Header Bar
     dwg.add(dwg.rect(insert=(1, 1), size=(width-2, 40), rx=10, ry=10, class_="header-bg"))
+
     dwg.add(dwg.rect(insert=(1, 30), size=(width-2, 12), fill="#161b22")) # Flatten bottom
     
     # Traffic Lights

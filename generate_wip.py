@@ -40,29 +40,14 @@ def generate_wip_card():
             50% { opacity: 0.3; }
         }
         .blinking { animation: blink 1.5s infinite; }
-        
-        /* Scanline Animation */
-        @keyframes scan {
-            from { transform: translateY(-100%); }
-            to { transform: translateY(200%); }
-        }
-        .scanline {
-            animation: scan 4s linear infinite;
-        }
     """))
 
     # Background
     dwg.add(dwg.rect(insert=(0, 0), size=('100%', '100%'), rx=10, ry=10, fill=COLORS['bg'], stroke=COLORS['border'], stroke_width=1))
     
-    # Scanline Overlay (masked)
-    mask = dwg.defs.add(dwg.mask(id="scan-mask"))
-    mask.add(dwg.rect(insert=(0, 0), size=('100%', '100%'), fill="white", rx=10, ry=10))
-    
-    scan_group = dwg.add(dwg.g(mask="url(#scan-mask)", opacity=0.05))
-    scan_group.add(dwg.rect(insert=(0, 0), size=('100%', '20%'), fill=COLORS['green'], class_="scanline"))
-
     # Header
     dwg.add(dwg.text("ACTIVE_DIRECTIVES // WORK_QUEUE", insert=(20, 35), class_="text header"))
+
     
     # Decoration Line
     dwg.add(dwg.line(start=(20, 50), end=(480, 50), stroke=COLORS['purple'], stroke_width=2))
