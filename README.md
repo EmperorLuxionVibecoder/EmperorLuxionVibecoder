@@ -29,23 +29,8 @@
 
 <!-- System Specs (Lore) -->
 <div align="center">
-    <pre align="left" style="background-color: #0D1117; color: #14F195; border: 1px solid #30363d; padding: 10px; border-radius: 5px; width: 60%; margin: auto;">
-> SYSTEM_DIAGNOSTICS_RUNNING...
-  ---------------------------------
-  :: NEURAL_LINK   :  V4.2 [STABLE]
-  :: STORAGE       :  DECENTRALIZED
-  :: NETWORK       :  SOLANA_MAINNET
-  :: STATUS        :  <span style="color: #00F0FF">OVERCLOCKED_120%</span>
-  :: ROLE          :  FULL_STACK_ARCHITECT
-  ---------------------------------
-    </pre>
-</div>
-
-<br/>
-
-<div align="center">
   <!-- Visual Divider -->
-  <img src="./divider.svg" alt="Vibecoder Wave" width="100%" />
+  <img src="./divider.svg" alt="Vibecoder Wave" width="80%" />
 </div>
 
 <br/>
@@ -76,11 +61,6 @@
 
 <br/>
 
-## �📡 IDENTITY_LOG.json
-
-<div align="center">
-  <img src="./identity.svg" alt="Identity Log Card" width="600px" />
-</div>
 
 ---
 
