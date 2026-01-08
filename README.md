@@ -36,7 +36,7 @@ luxion@vibecoder:~$ sudo execute_workflow
 
 ### ⚡ Daily Logic Laugh
 <!--START_SECTION:joke-->
-> "There are only 10 types of people in the world: those who understand binary, and those who don't."
+> "Java and C were telling jokes. It was C's turn, so he writes something on the wall, points to it and says \"Do you get the reference?\" But Java didn't."
 <!--END_SECTION:joke-->
 
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=16&duration=3000&pause=2000&color=A855F7&center=true&vCenter=true&width=600&lines=Code+is+like+humor.+When+you+have+to+explain+it%2C+it's+bad!;First%2C+solve+the+problem.+Then%2C+write+the+code.;Simplicity+is+the+soul+of+efficiency.;Before+software+can+be+reusable+it+first+has+to+be+usable." alt="Typing SVG Quotes" />
