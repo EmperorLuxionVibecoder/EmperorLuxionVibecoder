@@ -33,9 +33,9 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">emperorluxionvibecoder@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>TYPESCRIPT  </b> [###############     ] 70.52%
-<b>PYTHON      </b> [###                 ] 13.59%
-<b>HTML        </b> [###                 ] 12.60%
+<pre><div class="stdin"><span class="ps1-path">emperorluxionvibecoder@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>TYPESCRIPT  </b> [###############     ] 70.66%
+<b>PYTHON      </b> [###                 ] 13.42%
+<b>HTML        </b> [###                 ] 12.63%
 <b>CSS         </b> [#                   ] 1.76 %
 <b>JAVASCRIPT  </b> [#                   ] 1.17 %
 <b>JUPYTER NOTEBOOK</b> [#                   ] 0.19 %
