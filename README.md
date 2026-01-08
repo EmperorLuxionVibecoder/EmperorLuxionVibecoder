@@ -100,7 +100,7 @@
 <div align="center">
 
 <!-- Main Metrics Dashboard (Base Stats) -->
-<img src="./stats.svg" alt="Static Stats Dashboard" width="100%">
+<img src="./assets/stats.svg" alt="Static Stats Dashboard" width="100%">
 
 <br/><br/>
 
@@ -116,7 +116,7 @@
 <div align="center">
 
 <!-- Active Directives / Work Queue -->
-<img src="./wip.svg" alt="Active Directives" width="100%" />
+<img src="./assets/wip.svg" alt="Active Directives" width="100%" />
 
 </div>
 
@@ -142,7 +142,7 @@
   <h3>📡 ENCRYPTED TRANSMISSION ENDED</h3>
   
   <p>
-    <img src="./signature.svg" alt="PGP Signature" width="400px" />
+    <img src="./assets/signature.svg" alt="PGP Signature" width="400px" />
   </p>
 
   <p>
