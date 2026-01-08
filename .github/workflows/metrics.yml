@@ -54,6 +54,23 @@ jobs:
           filename: github-metrics.svg
           config_display: large
           config_padding: 0, 8 + 11%
+          
+          # Solana Theme (Dark + Green/Purple)
+          extras_css: |
+            :root {
+              --color-canvas-default: #0d1117;
+              --color-canvas-subtle: #161b22;
+              --color-border-default: #30363d;
+              --color-fg-default: #c9d1d9;
+              --color-fg-muted: #8b949e;
+              --color-accent-fg: #9945ff; /* Solana Purple */
+              --color-neutral-muted: rgba(110, 118, 129, 0.4);
+              --color-accent-subtle: rgba(153, 69, 255, 0.15);
+              --color-fg-subtle: #484f58;
+            }
+            .stat { font-family: 'Fira Code', monospace !important; }
+            h1, h2, h3 { color: #14F195 !important; } /* Solana Green */
+            .field svg { color: #9945ff !important; } /* Icons */
 
       - name: Generate RPG Stats (Terminal Style)
         uses: lowlighter/metrics@latest
@@ -64,6 +81,9 @@ jobs:
           template: terminal
           base: header, activity, community, repositories
           config_timezone: UTC
+          # Force terminal background to match repo theme
+          extras_css: |
+            .terminal { background-color: #0d1117 !important; border: 1px solid #30363d !important; }
 
       - name: Generate RPG Languages
         uses: lowlighter/metrics@latest
@@ -73,6 +93,9 @@ jobs:
           filename: github-rpg-langs.svg
           template: terminal
           base: ""
+          # Force terminal background to match repo theme
+          extras_css: |
+            .terminal { background-color: #0d1117 !important; border: 1px solid #30363d !important; border-top: 0 !important; }
           plugin_languages: yes
           plugin_languages_details: percentage
           plugin_languages_sections: most-used
