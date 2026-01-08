@@ -62,7 +62,7 @@ def generate_wip_card():
     scan_group.add(dwg.rect(insert=(0, 0), size=('100%', '20%'), fill=COLORS['green'], class_="scanline"))
 
     # Header
-    dwg.add(dwg.text("ACTIVE_DIRECTIVES // WORK_QUEUE", insert=(20, 35), class_="text header glitch-text"))
+    dwg.add(dwg.text("ACTIVE_DIRECTIVES // WORK_QUEUE", insert=(20, 35), class_="text header"))
     
     # Decoration Line
     dwg.add(dwg.line(start=(20, 50), end=(480, 50), stroke=COLORS['purple'], stroke_width=2))

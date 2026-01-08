@@ -77,7 +77,7 @@ def create_identity_card():
     dwg.add(dwg.circle(center=(65, 20), r=6, fill="#27C93F", opacity=0.8))
     
     # Title
-    dwg.add(dwg.text("IDENTITY_LOG.json", insert=(width/2, 25), text_anchor="middle", class_="title glitch-text"))
+    dwg.add(dwg.text("IDENTITY_LOG.json", insert=(width/2, 25), text_anchor="middle", class_="title"))
 
     # 4. Code Content
     content = dwg.add(dwg.g(class_="code", style="transform: translate(30px, 70px)"))
