@@ -25,6 +25,31 @@
 
 </div>
 
+<br/>
+
+<!-- System Specs (Lore) -->
+<div align="center">
+    <pre align="left" style="background-color: #0D1117; color: #14F195; border: 1px solid #30363d; padding: 10px; border-radius: 5px; width: 60%; margin: auto;">
+> SYSTEM_DIAGNOSTICS_RUNNING...
+  ---------------------------------
+  :: NEURAL_LINK   :  V4.2 [STABLE]
+  :: STORAGE       :  DECENTRALIZED
+  :: NETWORK       :  SOLANA_MAINNET
+  :: STATUS        :  <span style="color: #00F0FF">OVERCLOCKED_120%</span>
+  :: ROLE          :  FULL_STACK_ARCHITECT
+  ---------------------------------
+    </pre>
+</div>
+
+<br/>
+
+<div align="center">
+  <!-- Visual Divider -->
+  <img src="./divider.svg" alt="Vibecoder Wave" width="80%" />
+</div>
+
+<br/>
+
 ---
 
 ## 🐍 CHAIN_CONTRIBUTIONS
@@ -111,7 +136,18 @@
 
 ---
 
-## 🚧 ACTIVE_DIRECTIVES [WIP]
+## �️ STRATEGIC_ROADMAP // PRD_STATUS
+
+<div align="center">
+
+<!-- Roadmap & PRD Card -->
+<img src="./roadmap.svg" alt="Roadmap and PRD" width="100%" />
+
+</div>
+
+<br/>
+
+## �🚧 ACTIVE_DIRECTIVES [WIP]
 
 <div align="center">
 
@@ -142,11 +178,21 @@
   <h3>📡 ENCRYPTED TRANSMISSION ENDED</h3>
   
   <p>
+    <code>-----BEGIN PGP SIGNATURE-----</code><br/>
+    <span style="color: #484f58; font-size: 10px;">Version: GnuPG v2.0.22 (GNU/Linux)</span><br/><br/>
+    <span style="color: #14F195;">iQEcBAEBAgAGBQJS2O+LAAoJE...[ENCRYPTED_BLOCK]...Ende</span><br/>
+    <code>-----END PGP SIGNATURE-----</code>
+  </p>
+
+  <p>
     <a href="https://github.com/EmperorLuxionVibecoder">
-      <img src="https://img.shields.io/badge/PGP_KEY-MISSING-FF003C?style=flat-square" />
+      <img src="https://img.shields.io/badge/PGP_FINGERPRINT-VERIFIED-14F195?style=flat-square&logo=gnu-privacy-guard&logoColor=white" />
     </a>
     <a href="https://solana.com">
-      <img src="https://img.shields.io/badge/NETWORK-SOLANA_MAINNET-14F195?style=flat-square&logo=solana&logoColor=black" />
+      <img src="https://img.shields.io/badge/NETWORK-SOLANA_MAINNET-9945FF?style=flat-square&logo=solana&logoColor=white" />
+    </a>
+    <a href="mailto:contact@vibecoder.io">
+      <img src="https://img.shields.io/badge/SIGNAL-ESTABLISH_UPLINK-00F0FF?style=flat-square&logo=protonmail&logoColor=black" />
     </a>
   </p>
 
