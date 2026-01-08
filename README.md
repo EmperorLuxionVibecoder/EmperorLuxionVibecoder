@@ -43,7 +43,15 @@
 
 <br/>
 
-## 📡 IDENTITY_LOG.json
+## � SIGNAL_FREQUENCY
+
+<div align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=EmperorLuxionVibecoder&bg_color=0D1117&color=14F195&line=9945FF&point=00F0FF&area=true&hide_border=true" width="100%" alt="Activity Graph" />
+</div>
+
+<br/>
+
+## �📡 IDENTITY_LOG.json
 
 <div align="center">
   <img src="./identity.svg" alt="Identity Log Card" width="600px" />
