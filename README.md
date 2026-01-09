@@ -113,6 +113,7 @@ Git        2 mins          ▒░░░░░░░░░░░░░░░░�
 
 <br/><br/>
 
+<img src="https://komarev.com/ghpvc/?username=EmperorLuxionVibecoder&label=PROFILE_VIEWS&style=for-the-badge&color=9945FF" alt="Profile Views" />
 
 </div>
 
