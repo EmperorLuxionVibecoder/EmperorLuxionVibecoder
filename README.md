@@ -22,6 +22,8 @@
   [![X Follow](https://img.shields.io/badge/X_NET-%40EmperorLuxion-9945FF?style=for-the-badge&logo=X&logoColor=white)](https://x.com/EmperorLuxion)
   [![GitHub](https://img.shields.io/badge/GITHUB-EmperorLuxionVibecoder-14F195?style=for-the-badge&logo=github&logoColor=black)](https://github.com/EmperorLuxionVibecoder)
   [![Telegram](https://img.shields.io/badge/ENCRYPTED_CHAT-Telegram-00F0FF?style=for-the-badge&logo=telegram&logoColor=black)](https://t.me/EmperorLuxion)
+  <br />
+  <img src="https://komarev.com/ghpvc/?username=EmperorLuxionVibecoder&label=PROFILE_VIEWS&style=for-the-badge&color=9945FF" alt="Profile Views" />
 
 </div>
 
@@ -113,7 +115,6 @@ Git        2 mins          ▒░░░░░░░░░░░░░░░░�
 
 <br/><br/>
 
-<img src="https://komarev.com/ghpvc/?username=EmperorLuxionVibecoder&label=PROFILE_VIEWS&style=for-the-badge&color=9945FF" alt="Profile Views" />
 
 </div>
 
