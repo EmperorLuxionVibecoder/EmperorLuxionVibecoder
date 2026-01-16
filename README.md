@@ -33,13 +33,13 @@
 
 ```bash
 > IDENTITY_VERIFIED: EmperorLuxionVibecoder
-> ROLE: Full-Stack Blockchain Architect // Security Specialist (Red Team)
+> ROLE: Founder @ CipherLabs Security // Lead Architect
 > STATUS: ACTIVE
-> CURRENT_OBJECTIVE: Architecting decentralized systems on Solana & auditing smart contracts.
+> CURRENT_OBJECTIVE: Revolutionizing on-chain defense & onboarding institutional use.
 
 "I build unbreakable chains and break the unbuildable ones. 
  Specializing in high-frequency Solana protocols, MEV strategies, and offensive security operations.
- Currently leading architecture at Cipher Labs."
+ Leading the charge at CipherLabs Security."
 ```
 
 <br/>
@@ -193,9 +193,9 @@
 
 | 📂 PROJECT_CODENAME | 📝 MISSION_LOG | 🛠️ TECH_ARSENAL |
 | :--- | :--- | :--- |
-| **[Solana-Sniper-Bot](https://github.com/EmperorLuxionVibecoder)** | ⚡ High-frequency trading bot for Raydium/Orca pools. Detects liquidity injections in <400ms. | `Rust` `Solana` `RPC` |
-| **[Cipher-Shield-Audit](https://github.com/EmperorLuxionVibecoder)** | 🛡️ Automated smart contract vulnerability scanner. Detects reentrancy & arithmetic overflows. | `Python` `Slither` `Mythril` |
-| **[VibeCoder-DAO](https://github.com/EmperorLuxionVibecoder)** | 🏛️ Decentralized governance protocol with quadratic voting and on-chain proposal execution. | `Anchor` `React` `Web3.js` |
+| **[The-Cipher-Metaverse](https://github.com/EmperorLuxionVibecoder)** | 🌐 Immersive Web3 district for digital operatives. Features 3D on-chain assets and encrypted comms. | `Three.js` `Solana` `WebGL` |
+| **[Cipher-DAO](https://github.com/EmperorLuxionVibecoder)** | 🏛️ Autonomous governance core for the Cipher Labs ecosystem. Quadratic voting & treasury management. | `Anchor` `Realms` `Rust` |
+| **[Solana-Privacy-Hackathon](https://github.com/EmperorLuxionVibecoder)** | 🕵️‍♂️ Zero-knowledge proof constructs for confidential transactions. Developing privacy layers for DeFi. | `Rust` `ZK-Proofs` `Elusiv` |
 
 </div>
 
@@ -204,17 +204,21 @@
 ## ⏳ EXECUTION_LOGS [Timeline]
 
 ```bash
-[2026] >> EXEC_ROLE: Lead Architect @ Cipher Labs
-         + Launched Cipher Shield Audit Protocol
-         + Architecting Cross-Chain Bridge
+[2025-Present] >> EXEC_ROLE: Founder @ CipherLabs Security
+                  + PROTOCOL: Web3 Security Layer
+                  + OBJECTIVE: Revolutionizing on-chain defense & onboarding institutional use
 
-[2025] >> EXEC_ROLE: Founder @ VibeCoder DAO
-         + Deployed $CIPHER Token (Solana Mainnet)
-         + Built & Audited VibeCoder Governance Contracts
+[2024-2025]    >> EXEC_ROLE: Manager Support @ Coinmerce (Freelance)
+                  + MISSION: Optimized user operations & compliance protocols
+                  + TECH: Managed high-volume crypto transaction support
 
-[2024] >> EXEC_ROLE: Red Team Security Specialist
-         + Audited top 10 DeFi protocols
-         + Patched critical re-entrancy bug (Saved $5M TVL)
+[2021-2025]    >> EXEC_ROLE: Owner @ Administratiekantoor Lanooy
+                  + FOCUS: Financial administration & strategic business consulting
+                  + STACK: Custom finance automation & reporting systems
+
+[2020-2025]    >> EXEC_ROLE: Owner @ Lanooy Webcreations
+                  + DEPLOYMENT: Full-stack web development & SEO optimization
+                  + ARCHITECTURE: Custom digital solutions for SMBs
 ```
 
 <br/>
