@@ -33,11 +33,11 @@
         </div>
       </div>
 
-<pre><div class="stdin"><span class="ps1-path">emperorluxionvibecoder@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>TYPESCRIPT  </b> [##############      ] 67.66%
-<b>PYTHON      </b> [####                ] 16.56%
-<b>HTML        </b> [###                 ] 11.15%
-<b>CSS         </b> [#                   ] 2.31 %
-<b>JAVASCRIPT  </b> [#                   ] 1.93 %
+<pre><div class="stdin"><span class="ps1-path">emperorluxionvibecoder@metrics</span>:<span class="ps1-location">~</span># locale</div><div class="stdout"><b>TYPESCRIPT  </b> [##############      ] 67.45%
+<b>PYTHON      </b> [####                ] 16.52%
+<b>HTML        </b> [###                 ] 11.07%
+<b>CSS         </b> [#                   ] 2.44 %
+<b>JAVASCRIPT  </b> [#                   ] 2.13 %
 <b>BATCHFILE   </b> [#                   ] 0.18 %
 <b>JUPYTER NOTEBOOK</b> [#                   ] 0.13 %
 <b>POWERSHELL  </b> [#                   ] 0.08 %
