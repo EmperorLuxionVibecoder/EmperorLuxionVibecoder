@@ -29,7 +29,20 @@
 
 <br/>
 
+### 📜 MISSION_BRIEFING
 
+```bash
+> IDENTITY_VERIFIED: EmperorLuxionVibecoder
+> ROLE: Full-Stack Blockchain Architect // Security Specialist (Red Team)
+> STATUS: ACTIVE
+> CURRENT_OBJECTIVE: Architecting decentralized systems on Solana & auditing smart contracts.
+
+"I build unbreakable chains and break the unbuildable ones. 
+ Specializing in high-frequency Solana protocols, MEV strategies, and offensive security operations.
+ Currently leading architecture at Cipher Labs."
+```
+
+<br/>
 
 ---
 
@@ -48,7 +61,15 @@
 </div>
 
 <br/>
+## 🏆 ACHIEVEMENT_UNLOCKED
 
+<div align="center">
+  <a href="https://github.com/ryo-ma/github-profile-trophy">
+    <img src="https://github-profile-trophy.vercel.app/?username=EmperorLuxionVibecoder&theme=darkhub&no-frame=true&no-bg=true&margin-w=4" alt="EmperorLuxionVibecoder" />
+  </a>
+</div>
+
+<br/>
 ## � SIGNAL_FREQUENCY
 
 <div align="center">
@@ -73,12 +94,65 @@
 <img src="https://img.shields.io/badge/IPFS-65C2CB?style=for-the-badge&logo=ipfs&logoColor=white" />
 
 <!-- The Grid / Web2 (Dark & Clean) -->
-<h3>🌐 The Grid (Web2)</h3>
+<h3>💻 Frontend Architecture</h3>
 <img src="https://img.shields.io/badge/NEXT.JS-000000?style=for-the-badge&logo=next.js&logoColor=white" />
 <img src="https://img.shields.io/badge/REACT-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
 <img src="https://img.shields.io/badge/TYPESCRIPT-3178C6?style=for-the-badge&logo=typescript&logoColor=white" />
 <img src="https://img.shields.io/badge/TAILWIND-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" />
+<img src="https://img.shields.io/badge/VUE.JS-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white" />
+<img src="https://img.shields.io/badge/SVELTE-FF3E00?style=for-the-badge&logo=svelte&logoColor=white" />
+<img src="https://img.shields.io/badge/ANGULAR-DD0031?style=for-the-badge&logo=angular&logoColor=white" />
+<img src="https://img.shields.io/badge/ALPINE.JS-8BC0D0?style=for-the-badge&logo=alpine.js&logoColor=white" />
+<img src="https://img.shields.io/badge/THREE.JS-000000?style=for-the-badge&logo=three.js&logoColor=white" />
+<img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" />
+<img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" />
+
+<h3>⚙️ Backend Systems</h3>
 <img src="https://img.shields.io/badge/NODE.JS-339933?style=for-the-badge&logo=node.js&logoColor=white" />
+<img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/GO-00ADD8?style=for-the-badge&logo=go&logoColor=white" />
+<img src="https://img.shields.io/badge/RUST-000000?style=for-the-badge&logo=rust&logoColor=white" />
+<img src="https://img.shields.io/badge/FASTAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white" />
+<img src="https://img.shields.io/badge/DJANGO-092E20?style=for-the-badge&logo=django&logoColor=white" />
+<img src="https://img.shields.io/badge/SPRING-6DB33F?style=for-the-badge&logo=spring&logoColor=white" />
+<img src="https://img.shields.io/badge/GRAPHQL-E10098?style=for-the-badge&logo=graphql&logoColor=white" />
+<img src="https://img.shields.io/badge/EXPRESS.JS-000000?style=for-the-badge&logo=express&logoColor=white" />
+<img src="https://img.shields.io/badge/LARAVEL-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" />
+<img src="https://img.shields.io/badge/.NET-512BD4?style=for-the-badge&logo=dotnet&logoColor=white" />
+
+<h3>📱 Mobile & Cross-Platform</h3>
+<img src="https://img.shields.io/badge/FLUTTER-02569B?style=for-the-badge&logo=flutter&logoColor=white" />
+<img src="https://img.shields.io/badge/REACT_NATIVE-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" />
+<img src="https://img.shields.io/badge/SWIFT-F05138?style=for-the-badge&logo=swift&logoColor=white" />
+<img src="https://img.shields.io/badge/KOTLIN-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
+<img src="https://img.shields.io/badge/EXPO-000020?style=for-the-badge&logo=expo&logoColor=white" />
+
+<h3>🗄️ Database & Infrastructure</h3>
+<img src="https://img.shields.io/badge/POSTGRESQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" />
+<img src="https://img.shields.io/badge/MONGODB-47A248?style=for-the-badge&logo=mongodb&logoColor=white" />
+<img src="https://img.shields.io/badge/REDIS-DC382D?style=for-the-badge&logo=redis&logoColor=white" />
+<img src="https://img.shields.io/badge/SUPABASE-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
+<img src="https://img.shields.io/badge/MYSQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" />
+<img src="https://img.shields.io/badge/FIREBASE-FFCA28?style=for-the-badge&logo=firebase&logoColor=black" />
+<img src="https://img.shields.io/badge/SQLITE-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+
+<h3>☁️ Cloud Native & DevOps</h3>
+<img src="https://img.shields.io/badge/DOCKER-2496ED?style=for-the-badge&logo=docker&logoColor=white" />
+<img src="https://img.shields.io/badge/KUBERNETES-326CE5?style=for-the-badge&logo=kubernetes&logoColor=white" />
+<img src="https://img.shields.io/badge/AWS-232F3E?style=for-the-badge&logo=amazon-aws&logoColor=white" />
+<img src="https://img.shields.io/badge/GOOGLE_CLOUD-4285F4?style=for-the-badge&logo=google-cloud&logoColor=white" />
+<img src="https://img.shields.io/badge/TERRAFORM-7B42BC?style=for-the-badge&logo=terraform&logoColor=white" />
+<img src="https://img.shields.io/badge/JENKINS-D24939?style=for-the-badge&logo=jenkins&logoColor=white" />
+<img src="https://img.shields.io/badge/GITHUB_ACTIONS-2088FF?style=for-the-badge&logo=github-actions&logoColor=white" />
+<img src="https://img.shields.io/badge/PROMETHEUS-E6522C?style=for-the-badge&logo=prometheus&logoColor=white" />
+
+<h3>🧠 AI & Machine Learning</h3>
+<img src="https://img.shields.io/badge/OPENAI-412991?style=for-the-badge&logo=openai&logoColor=white" />
+<img src="https://img.shields.io/badge/TENSORFLOW-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" />
+<img src="https://img.shields.io/badge/PYTORCH-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" />
+<img src="https://img.shields.io/badge/LANGCHAIN-1C3C3C?style=for-the-badge&logo=langchain&logoColor=white" />
+<img src="https://img.shields.io/badge/HUGGING_FACE-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black" />
+<img src="https://img.shields.io/badge/KERAS-D00000?style=for-the-badge&logo=keras&logoColor=white" />
 
 <!-- Security / Red Team (Red & Black) -->
 <h3>🛡️ Security Ops</h3>
@@ -87,22 +161,13 @@
 <img src="https://img.shields.io/badge/WIRESHARK-1679A7?style=for-the-badge&logo=wireshark&logoColor=white" />
 <img src="https://img.shields.io/badge/TOR_NETWORK-7D4698?style=for-the-badge&logo=tor-project&logoColor=white" />
 <img src="https://img.shields.io/badge/PYTHON-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+<img src="https://img.shields.io/badge/BURP_SUITE-FF6633?style=for-the-badge&logo=burpsuite&logoColor=white" />
+<img src="https://img.shields.io/badge/OWASP-000000?style=for-the-badge&logo=owasp&logoColor=white" />
 
 </div>
 
-<br/>
 
-<!--START_SECTION:waka-->
 
-```txt
-Markdown     2 hrs           ██████████████████░░░░░░░   71.75 %
-YAML         25 mins         ███▓░░░░░░░░░░░░░░░░░░░░░   15.17 %
-Python       20 mins         ███░░░░░░░░░░░░░░░░░░░░░░   12.39 %
-Git          0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.37 %
-Git Config   0 secs          ░░░░░░░░░░░░░░░░░░░░░░░░░   00.31 %
-```
-
-<!--END_SECTION:waka-->
 
 ---
 
@@ -122,14 +187,35 @@ Git Config   0 secs          ░░░░░░░░░░░░░░░░░
 ---
 
 
-## �🚧 ACTIVE_DIRECTIVES [WIP]
+## 🗃️ CLASSIFIED_ARCHIVES [Featured Projects]
 
 <div align="center">
 
-<!-- Active Directives / Work Queue -->
-<img src="./assets/wip.svg" alt="Active Directives" width="100%" />
+| 📂 PROJECT_CODENAME | 📝 MISSION_LOG | 🛠️ TECH_ARSENAL |
+| :--- | :--- | :--- |
+| **[Solana-Sniper-Bot](https://github.com/EmperorLuxionVibecoder)** | ⚡ High-frequency trading bot for Raydium/Orca pools. Detects liquidity injections in <400ms. | `Rust` `Solana` `RPC` |
+| **[Cipher-Shield-Audit](https://github.com/EmperorLuxionVibecoder)** | 🛡️ Automated smart contract vulnerability scanner. Detects reentrancy & arithmetic overflows. | `Python` `Slither` `Mythril` |
+| **[VibeCoder-DAO](https://github.com/EmperorLuxionVibecoder)** | 🏛️ Decentralized governance protocol with quadratic voting and on-chain proposal execution. | `Anchor` `React` `Web3.js` |
 
 </div>
+
+<br/>
+
+## ⏳ EXECUTION_LOGS [Timeline]
+
+```bash
+[2026] >> EXEC_ROLE: Lead Architect @ Cipher Labs
+         + Launched Cipher Shield Audit Protocol
+         + Architecting Cross-Chain Bridge
+
+[2025] >> EXEC_ROLE: Founder @ VibeCoder DAO
+         + Deployed $CIPHER Token (Solana Mainnet)
+         + Built & Audited VibeCoder Governance Contracts
+
+[2024] >> EXEC_ROLE: Red Team Security Specialist
+         + Audited top 10 DeFi protocols
+         + Patched critical re-entrancy bug (Saved $5M TVL)
+```
 
 <br/>
 
