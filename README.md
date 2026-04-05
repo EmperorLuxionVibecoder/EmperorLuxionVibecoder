@@ -83,9 +83,8 @@ Now: full-time DeFi builder. Solana-native. On-chain verifiable.
 - Positive months: **24/24**
 
 **On-chain identity:**
-- Wallet: `GNxT3Q...NpMg`
-- Metaplex: AgentIdentityV1
-- Every trade auditable on [Solscan](https://solscan.io/account/GNxT3QVaeNsNkDn2bkBmcHLqPxUD4qpSkMLNJdpYNpMg)
+- On-chain Metaplex AgentIdentityV1
+- Every action signed and verifiable
 
 [![Lyra Repo](https://img.shields.io/badge/REPO-Lyra-EC4899?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Cipherlabsx/lyra)
 
@@ -195,7 +194,7 @@ Now: full-time DeFi builder. Solana-native. On-chain verifiable.
 ```
 [2025-Present] >> Founder @ CipherLabsX
                   Building Orbit Finance (DLMM DEX) + Project Lyra (AI LP agents)
-                  Solana mainnet: Fn3fA3fjsmpULNL7E9U79jKTe1KHxPtQeWdURCbJXCnM
+                  Live on Solana mainnet
 
 [2024-2025]    >> Crypto Operations @ Coinmerce
                   High-volume transaction support, compliance protocols
