@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<svg baseProfile="full" height="380" version="1.1" width="850" xmlns="http://www.w3.org/2000/svg">
+<defs>
+<style type="text/css"><![CDATA[
+  @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
+  .bg { fill: #0D1117; stroke: #30363d; stroke-width: 1; }
+  .header { font-family: 'JetBrains Mono', monospace; fill: #EC4899; font-size: 18px; font-weight: bold; letter-spacing: 2px; }
+  .name { font-family: 'JetBrains Mono', monospace; fill: #e6edf3; font-size: 14px; font-weight: bold; }
+  .role { font-family: 'JetBrains Mono', monospace; fill: #8b949e; font-size: 11px; }
+  .token { font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: bold; }
+  .venue { font-family: 'JetBrains Mono', monospace; fill: #484f58; font-size: 10px; }
+  .dim { font-family: 'JetBrains Mono', monospace; fill: #484f58; font-size: 11px; }
+  .label { font-family: 'JetBrains Mono', monospace; fill: #8b949e; font-size: 10px; letter-spacing: 1px; }
+]]></style>
+<pattern id="grid" patternUnits="userSpaceOnUse" width="40" height="40">
+  <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1f26" stroke-width="0.5"/>
+</pattern>
+</defs>
+
+<rect class="bg" x="0" y="0" width="100%" height="100%" rx="12" ry="12"/>
+<rect fill="url(#grid)" fill-opacity="0.3" x="0" y="0" width="100%" height="100%"/>
+
+<!-- Header -->
+<text class="header" x="30" y="38">AGENT SWARM // ROSTER</text>
+<line x1="30" y1="50" x2="820" y2="50" stroke="#EC4899" stroke-opacity="0.4" stroke-width="1"/>
+
+<!-- Column Headers -->
+<text class="label" x="30" y="75">AGENT</text>
+<text class="label" x="160" y="75">ROLE</text>
+<text class="label" x="380" y="75">TOKEN</text>
+<text class="label" x="530" y="75">VENUE</text>
+<text class="label" x="700" y="75">STATUS</text>
+<line x1="30" y1="82" x2="820" y2="82" stroke="#30363d" stroke-width="0.5"/>
+
+<!-- Row 1: Solaris -->
+<circle fill="#14F195" cx="42" cy="105" r="6"/>
+<text class="name" x="60" y="110">Solaris</text>
+<text class="role" x="160" y="110">Core anchor</text>
+<text class="token" fill="#14F195" x="380" y="110">SOL/USDC</text>
+<text class="venue" x="530" y="110">Meteora DLMM</text>
+<text class="token" fill="#14F195" x="700" y="110">LIVE</text>
+
+<!-- Row 2: Atlas -->
+<circle fill="#F59E0B" cx="42" cy="135" r="6"/>
+<text class="name" x="60" y="140">Atlas</text>
+<text class="role" x="160" y="140">Fee machine</text>
+<text class="token" fill="#EC4899" x="380" y="140">FARTCOIN/SOL</text>
+<text class="venue" x="530" y="140">Orca</text>
+<text class="token" fill="#14F195" x="700" y="140">LIVE</text>
+
+<!-- Row 3: Kai -->
+<circle fill="#F97316" cx="42" cy="165" r="6"/>
+<text class="name" x="60" y="170">Kai</text>
+<text class="role" x="160" y="170">Memecoin hunter</text>
+<text class="token" fill="#EC4899" x="380" y="170">DOGE/SOL</text>
+<text class="venue" x="530" y="170">Meteora DLMM</text>
+<text class="token" fill="#14F195" x="700" y="170">LIVE</text>
+
+<!-- Row 4: Volt -->
+<circle fill="#6366F1" cx="42" cy="195" r="6"/>
+<text class="name" x="60" y="200">Volt</text>
+<text class="role" x="160" y="200">AI compute LP</text>
+<text class="token" fill="#9945FF" x="380" y="200">RENDER/SOL</text>
+<text class="venue" x="530" y="200">Orca</text>
+<text class="token" fill="#14F195" x="700" y="200">LIVE</text>
+
+<!-- Row 5: Nova -->
+<circle fill="#8B5CF6" cx="42" cy="225" r="6"/>
+<text class="name" x="60" y="230">Nova</text>
+<text class="role" x="160" y="230">Jupiter ecosystem</text>
+<text class="token" fill="#9945FF" x="380" y="230">JUP/SOL</text>
+<text class="venue" x="530" y="230">Orca</text>
+<text class="token" fill="#14F195" x="700" y="230">LIVE</text>
+
+<!-- Row 6: Blaze -->
+<circle fill="#EF4444" cx="42" cy="255" r="6"/>
+<text class="name" x="60" y="260">Blaze</text>
+<text class="role" x="160" y="260">AI agent narrative</text>
+<text class="token" fill="#9945FF" x="380" y="260">AI16Z/SOL</text>
+<text class="venue" x="530" y="260">Orca</text>
+<text class="token" fill="#14F195" x="700" y="260">LIVE</text>
+
+<!-- Row 7: Aria -->
+<circle fill="#EC4899" cx="42" cy="285" r="6"/>
+<text class="name" x="60" y="290">Aria</text>
+<text class="role" x="160" y="290">Infra token LP</text>
+<text class="token" fill="#9945FF" x="380" y="290">W/SOL</text>
+<text class="venue" x="530" y="290">Orca</text>
+<text class="token" fill="#14F195" x="700" y="290">LIVE</text>
+
+<!-- Row 8: Mizu -->
+<circle fill="#3B82F6" cx="42" cy="315" r="6"/>
+<text class="name" x="60" y="320">Mizu</text>
+<text class="role" x="160" y="320">Flow tracker</text>
+<text class="token" fill="#9945FF" x="380" y="320">ORCA/SOL</text>
+<text class="venue" x="530" y="320">Orca</text>
+<text class="token" fill="#14F195" x="700" y="320">LIVE</text>
+
+<!-- Row 9: Frost -->
+<circle fill="#06B6D4" cx="42" cy="345" r="6"/>
+<text class="name" x="60" y="350">Frost</text>
+<text class="role" x="160" y="350">Helium utility</text>
+<text class="token" fill="#9945FF" x="380" y="350">HNT/SOL</text>
+<text class="venue" x="530" y="350">Orca</text>
+<text class="token" fill="#14F195" x="700" y="350">LIVE</text>
+
+<!-- Row 10: Rex -->
+<circle fill="#10B981" cx="42" cy="375" r="6" stroke="#10B981" stroke-width="2" fill-opacity="0.3"/>
+<text class="name" x="60" y="380">Rex</text>
+<text class="role" x="160" y="380">Degen hunter</text>
+<text class="token" fill="#F59E0B" x="380" y="380">ROTATING</text>
+<text class="venue" x="530" y="380">Jupiter API</text>
+<text class="dim" x="700" y="380">coming soon</text>
+
+</svg>

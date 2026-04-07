@@ -1,132 +1,94 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<svg baseProfile="full" height="420" version="1.1" width="850" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg baseProfile="full" height="360" version="1.1" width="850" xmlns="http://www.w3.org/2000/svg">
 <defs>
 <style type="text/css"><![CDATA[
   @import url('https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;700&display=swap');
   .bg { fill: #0D1117; stroke: #30363d; stroke-width: 1; }
   .header { font-family: 'JetBrains Mono', monospace; fill: #EC4899; font-size: 18px; font-weight: bold; letter-spacing: 2px; }
-  .subheader { font-family: 'JetBrains Mono', monospace; fill: #9945FF; font-size: 13px; font-weight: bold; letter-spacing: 1px; }
-  .text { font-family: 'JetBrains Mono', monospace; fill: #e6edf3; font-size: 12px; }
   .label { font-family: 'JetBrains Mono', monospace; fill: #8b949e; font-size: 11px; }
-  .value-green { font-family: 'JetBrains Mono', monospace; fill: #14F195; font-size: 14px; font-weight: bold; }
+  .value { font-family: 'JetBrains Mono', monospace; fill: #e6edf3; font-size: 14px; font-weight: bold; }
   .value-pink { font-family: 'JetBrains Mono', monospace; fill: #EC4899; font-size: 14px; font-weight: bold; }
+  .value-green { font-family: 'JetBrains Mono', monospace; fill: #14F195; font-size: 14px; font-weight: bold; }
   .value-purple { font-family: 'JetBrains Mono', monospace; fill: #9945FF; font-size: 14px; font-weight: bold; }
-  .value-big { font-family: 'JetBrains Mono', monospace; fill: #14F195; font-size: 28px; font-weight: bold; }
-  .value-big-pink { font-family: 'JetBrains Mono', monospace; fill: #EC4899; font-size: 28px; font-weight: bold; }
+  .value-big { font-family: 'JetBrains Mono', monospace; fill: #EC4899; font-size: 36px; font-weight: bold; }
+  .dim { font-family: 'JetBrains Mono', monospace; fill: #484f58; font-size: 11px; }
   .bar-bg { fill: #21262d; }
-  .dim { fill: #484f58; }
+  .bar-pink { fill: #EC4899; }
+  .bar-purple { fill: #9945FF; }
+  .bar-green { fill: #14F195; }
+  .bar-yellow { fill: #F59E0B; }
 ]]></style>
 <pattern id="grid" patternUnits="userSpaceOnUse" width="40" height="40">
   <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1a1f26" stroke-width="0.5"/>
 </pattern>
 </defs>
 
-<!-- Background -->
 <rect class="bg" x="0" y="0" width="100%" height="100%" rx="12" ry="12"/>
 <rect fill="url(#grid)" fill-opacity="0.3" x="0" y="0" width="100%" height="100%"/>
 
 <!-- Header -->
-<text class="header" x="30" y="38">LYRA PERFORMANCE DASHBOARD</text>
+<text class="header" x="30" y="38">PROJECT LYRA // BUILD STATUS</text>
 <line x1="30" y1="50" x2="820" y2="50" stroke="#EC4899" stroke-opacity="0.4" stroke-width="1"/>
 
-<!-- Left Column: Big Metrics -->
-<text class="subheader" x="30" y="80">BLUE CHIP (728-DAY OOS BACKTEST)</text>
+<!-- Left: Live Status -->
+<text class="value-big" x="30" y="105">10</text>
+<text class="label" x="105" y="105">autonomous agents</text>
 
-<text class="label" x="30" y="110">APY</text>
-<text class="value-big" x="30" y="142">67.0%</text>
-<text class="label" x="160" y="142">normal</text>
-<text class="dim" x="200" y="142">|</text>
-<text class="value-green" x="215" y="142">79.2%</text>
-<text class="label" x="285" y="142">best</text>
+<circle fill="#14F195" cx="38" cy="135" r="5"/>
+<text class="value-green" x="52" y="140">Meteora DLMM</text>
+<text class="dim" x="210" y="140">live on mainnet</text>
 
-<text class="label" x="30" y="172">Sharpe Ratio</text>
-<text class="value-big-pink" x="30" y="204">15.28</text>
+<circle fill="#F59E0B" cx="38" cy="170" r="5"/>
+<text class="value" x="52" y="175">Orca Whirlpools</text>
+<text class="dim" x="210" y="175">in development</text>
 
-<text class="label" x="30" y="234">Win Rate</text>
-<text class="value-big" x="30" y="266">100%</text>
-<text class="label" x="140" y="266">104/104 windows</text>
+<circle fill="#F59E0B" cx="38" cy="205" r="5"/>
+<text class="value" x="52" y="210">Raydium CLMM</text>
+<text class="dim" x="210" y="210">in development</text>
 
-<text class="label" x="30" y="296">Fee/IL Ratio</text>
-<text class="value-green" x="30" y="318">9.16x</text>
-<text class="label" x="105" y="318">fees cover IL by 9x</text>
+<circle fill="#F59E0B" cx="38" cy="240" r="5"/>
+<text class="value" x="52" y="245">Ranger Vault (USDC)</text>
+<text class="dim" x="245" y="245">integrating</text>
 
-<text class="label" x="30" y="348">Max Drawdown</text>
-<text class="value-green" x="30" y="370">0.9%</text>
+<circle fill="#F59E0B" cx="38" cy="275" r="5"/>
+<text class="value" x="52" y="280">Metaplex Identity</text>
+<text class="dim" x="220" y="280">integrating</text>
 
-<text class="label" x="30" y="400">Positive Months</text>
-<text class="value-green" x="30" y="415">24/24</text>
+<circle fill="#484f58" cx="38" cy="310" r="5"/>
+<text class="value" x="52" y="315">Degen Discovery (Rex)</text>
+<text class="dim" x="260" y="315">planned</text>
 
 <!-- Divider -->
-<line x1="340" y1="65" x2="340" y2="410" stroke="#30363d" stroke-width="1"/>
+<line x1="420" y1="65" x2="420" y2="340" stroke="#30363d" stroke-width="1"/>
 
-<!-- Right Column: Agent Performance -->
-<text class="subheader" x="365" y="80">AGENT SWARM (10 AUTONOMOUS AGENTS)</text>
+<!-- Right: Progress Bars -->
+<text class="label" x="450" y="80">DEVELOPMENT PROGRESS</text>
 
-<!-- Agent bars -->
-<text class="text" x="365" y="110">Rex</text>
-<text class="label" x="415" y="110">DOGE</text>
-<rect class="bar-bg" x="470" y="101" width="200" height="12" rx="2"/>
-<rect fill="#EC4899" x="470" y="101" width="200" height="12" rx="2"/>
-<text class="value-green" x="680" y="112">398%</text>
+<text class="label" x="450" y="110">AGENT SWARM ARCHITECTURE</text>
+<rect class="bar-bg" x="450" y="118" width="370" height="10" rx="5"/>
+<rect class="bar-pink" x="450" y="118" width="370" height="10" rx="5"/>
 
-<text class="text" x="365" y="138">Nova</text>
-<text class="label" x="415" y="138">XRP</text>
-<rect class="bar-bg" x="470" y="129" width="200" height="12" rx="2"/>
-<rect fill="#EC4899" x="470" y="129" width="104" height="12" rx="2"/>
-<text class="value-green" x="680" y="140">208%</text>
+<text class="label" x="450" y="150">WALK-FORWARD BACKTESTING</text>
+<rect class="bar-bg" x="450" y="158" width="370" height="10" rx="5"/>
+<rect class="bar-pink" x="450" y="158" width="370" height="10" rx="5"/>
 
-<text class="text" x="365" y="166">Frost</text>
-<text class="label" x="415" y="166">AVAX</text>
-<rect class="bar-bg" x="470" y="157" width="200" height="12" rx="2"/>
-<rect fill="#9945FF" x="470" y="157" width="71" height="12" rx="2"/>
-<text class="value-green" x="680" y="168">141%</text>
+<text class="label" x="450" y="190">RISK MANAGEMENT + CIRCUIT BREAKERS</text>
+<rect class="bar-bg" x="450" y="198" width="370" height="10" rx="5"/>
+<rect class="bar-pink" x="450" y="198" width="370" height="10" rx="5"/>
 
-<text class="text" x="365" y="194">Kai</text>
-<text class="label" x="415" y="194">BNB</text>
-<rect class="bar-bg" x="470" y="185" width="200" height="12" rx="2"/>
-<rect fill="#9945FF" x="470" y="185" width="64" height="12" rx="2"/>
-<text class="value-green" x="680" y="196">127%</text>
+<text class="label" x="450" y="230">MULTI-VENUE EXECUTION</text>
+<rect class="bar-bg" x="450" y="238" width="370" height="10" rx="5"/>
+<rect class="bar-purple" x="450" y="238" width="170" height="10" rx="5"/>
 
-<text class="text" x="365" y="222">Aria</text>
-<text class="label" x="415" y="222">ADA</text>
-<rect class="bar-bg" x="470" y="213" width="200" height="12" rx="2"/>
-<rect fill="#9945FF" x="470" y="213" width="57" height="12" rx="2"/>
-<text class="value-green" x="680" y="224">113%</text>
+<text class="label" x="450" y="270">USDC VAULT + ON-CHAIN IDENTITY</text>
+<rect class="bar-bg" x="450" y="278" width="370" height="10" rx="5"/>
+<rect class="bar-purple" x="450" y="278" width="100" height="10" rx="5"/>
 
-<text class="text" x="365" y="250">Blaze</text>
-<text class="label" x="415" y="250">HYPE</text>
-<rect class="bar-bg" x="470" y="241" width="200" height="12" rx="2"/>
-<rect fill="#9945FF" x="470" y="241" width="42" height="12" rx="2"/>
-<text class="value-green" x="680" y="252">84%</text>
-
-<text class="text" x="365" y="278">Mizu</text>
-<text class="label" x="415" y="278">SUI</text>
-<rect class="bar-bg" x="470" y="269" width="200" height="12" rx="2"/>
-<rect fill="#9945FF" x="470" y="269" width="38" height="12" rx="2"/>
-<text class="value-green" x="680" y="280">76%</text>
-
-<text class="text" x="365" y="306">Volt</text>
-<text class="label" x="415" y="306">ETH</text>
-<rect class="bar-bg" x="470" y="297" width="200" height="12" rx="2"/>
-<rect fill="#14F195" x="470" y="297" width="23" height="12" rx="2"/>
-<text class="value-green" x="680" y="308">45%</text>
-
-<text class="text" x="365" y="334">Atlas</text>
-<text class="label" x="415" y="334">BTC</text>
-<rect class="bar-bg" x="470" y="325" width="200" height="12" rx="2"/>
-<rect fill="#14F195" x="470" y="325" width="15" height="12" rx="2"/>
-<text class="value-green" x="680" y="336">29%</text>
-
-<text class="text" x="365" y="362">Solaris</text>
-<text class="label" x="415" y="362">SOL</text>
-<rect class="bar-bg" x="470" y="353" width="200" height="12" rx="2"/>
-<rect fill="#21262d" x="470" y="353" width="3" height="12" rx="2"/>
-<text class="label" x="680" y="364">anchor</text>
+<text class="label" x="450" y="310">DEGEN POOL DISCOVERY AGENT</text>
+<rect class="bar-bg" x="450" y="318" width="370" height="10" rx="5"/>
+<rect class="bar-yellow" x="450" y="318" width="40" height="10" rx="5"/>
 
 <!-- Footer -->
-<line x1="30" y1="390" x2="820" y2="390" stroke="#30363d" stroke-width="1"/>
-<text class="label" style="fill:#EC4899" x="30" y="415">ENGINE: LIVE</text>
-<text class="label" x="365" y="400">METHODOLOGY: Walk-forward OOS | No look-ahead</text>
-<text class="label" style="fill:#9945FF" text-anchor="end" x="820" y="415">LYRA v1.0</text>
+<line x1="30" y1="340" x2="820" y2="340" stroke="#30363d" stroke-width="1"/>
 
 </svg>
