@@ -1,0 +1,15 @@
+{
+  "updated": null,
+  "agents": [
+    {"name": "Solaris", "role": "Core anchor", "status": "live"},
+    {"name": "Atlas", "role": "Fee engine", "status": "live"},
+    {"name": "Nova", "role": "Jupiter ecosystem", "status": "live"},
+    {"name": "Kai", "role": "Memecoin book", "status": "live"},
+    {"name": "Volt", "role": "AI-compute book", "status": "live"},
+    {"name": "Aria", "role": "Infrastructure book", "status": "live"},
+    {"name": "Blaze", "role": "Agent-narrative book", "status": "live"},
+    {"name": "Mizu", "role": "Flow tracker", "status": "live"},
+    {"name": "Frost", "role": "Helium utility", "status": "live"},
+    {"name": "Rex", "role": "Pool discovery", "status": "planned"}
+  ]
+}

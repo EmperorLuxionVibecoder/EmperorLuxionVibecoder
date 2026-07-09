@@ -1,0 +1,49 @@
+name: Update Register
+
+on:
+  schedule:
+    # Daily at 06:00 UTC
+    - cron: '0 6 * * *'
+  push:
+    branches:
+      - main
+    paths:
+      - 'scripts/**'
+      - 'data/**'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-register:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      # No dependencies needed: display type comes from the committed
+      # outline cache (scripts/type_cache.json), so CI reproduces the
+      # plates byte-for-byte without Palatino or fontTools.
+
+      - name: Refresh data from operator API (skips cleanly without secrets)
+        env:
+          LYRA_API_URL: ${{ secrets.LYRA_API_URL }}
+          LYRA_API_KEY: ${{ secrets.LYRA_API_KEY }}
+        run: python scripts/fetch_register.py
+
+      - name: Generate plates
+        run: |
+          python scripts/generate_register.py
+          python scripts/generate_constellation.py
+
+      - name: Commit and push changes
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: 'register sync [skip ci]'
+          file_pattern: 'assets/register.svg assets/constellation.svg data/*.json'
