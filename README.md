@@ -118,9 +118,7 @@ Ten agents, each running its own book on individually optimized parameters. Node
 
 ---
 
-<div align="center">
-  <sub>SOLANA · RUST · ANCHOR · PYTHON · TYPESCRIPT · METEORA DLMM &nbsp;—&nbsp; systems &amp; tooling built under <a href="https://github.com/Cipherlabsx">CipherLabsX</a></sub>
-</div>
+
 
 <br/>
 
